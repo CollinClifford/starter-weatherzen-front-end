@@ -29,7 +29,7 @@ function Home() {
       <h1>Home</h1>
       <ErrorAlert error={error} />
       <table className="table">
-        <thread>
+        <thead>
           <tr>
             <th scope="col">#</th>
             <th scope="col">Latitude</th>
@@ -37,7 +37,7 @@ function Home() {
             <th scope="col">Sky Condition</th>
             <th scope="col">Created</th>
           </tr>
-        </thread>
+        </thead>
         <tbody>{tableRows}</tbody>
       </table>
     </main>
